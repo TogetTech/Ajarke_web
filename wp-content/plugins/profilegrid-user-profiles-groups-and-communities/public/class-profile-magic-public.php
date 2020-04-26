@@ -3459,13 +3459,13 @@ class Profile_Magic_Public {
 	?>
       <div class="pm-dbfl">   
 
-    <!--
+    
       <div class="pm-edit-user pm-difl pm-pad10"> <a href="<?php echo esc_url( $redirect_url ); ?>" class="pm-dbfl">
           <i class="fa fa-pencil" aria-hidden="true"></i>
           <?php _e('Edit Profile','profilegrid-user-profiles-groups-and-communities');?></a> </div>
       </div>
 
-    -->
+    
 
       <?php endif; ?>
         <?php if(!empty($sections) && count($sections)>1):?>
@@ -3504,11 +3504,10 @@ class Profile_Magic_Public {
 
         <!-------------------------------------------------------------->
 
-        
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
-        <h4> Agence locale</h4>
+        <hr>
+        <h4> Gestion de voyages <a href="#" style="text-decoration: none; color: #1e88e5">(En agence locale)</a></h4>
         <hr>
         
         <div>
@@ -3517,25 +3516,25 @@ class Profile_Magic_Public {
                 <div class="card" style="width: 18rem; display: inline-block;">
                   <div class="card-body">
                     <h5 class="card-title">VOYAGE DÉPART</h5>
-                    <p class="card-text" style="text-align: justify;">Enrégister un nouveau passager, créer un ticket de voyage personnalisé.</p>
-                    <a href="#" class="btn btn-primary" style="text-decoration: none;">NOUVEAU VOYAGE</a>
+                    <p class="card-text">Enrégister un nouveau passager, créer un ticket de voyage personnalisé.</p>
+                    <a href="#" class="btn btn-primary" style="text-decoration: none; width: 14rem; ">NOUVEAU VOYAGE</a>
                   </div>
                 </div>
 
 
                 <div class="card" style="width: 18rem; display: inline-block; margin: 60px;">
                   <div class="card-body">
-                    <h5 class="card-title">VOYAGE DÉPART</h5>
-                    <p class="card-text" style="text-align: justify;">Enrégister un nouveau passager, créer un ticket de voyage personnalisé.</p>
-                    <a href="#" class="btn btn-primary" style="text-decoration: none;">NOUVEAU VOYAGE</a>
+                    <h5 class="card-title">VOYAGES PROGRAMMÉS</h5>
+                    <p class="card-text">Consulter la liste des passager(e)s, imprimer les fiches de voyages etc ...</p>
+                    <a href="#" class="btn btn-primary" style="text-decoration: none; width: 14rem; ">LISTE PASSAGER (E)S</a>
                   </div>
                 </div>
 
                  <div class="card" style="width: 18rem; display: inline-block; ">
                   <div class="card-body">
-                    <h5 class="card-title">VOYAGE DÉPART</h5>
-                    <p class="card-text" style="text-align: justify;">Enrégister un nouveau passager, créer un ticket de voyage personnalisé.</p>
-                    <a href="#" class="btn btn-primary" style="text-decoration: none;">NOUVEAU VOYAGE</a>
+                    <h5 class="card-title">GESTION TECHNIQUE</h5>
+                    <p class="card-text">Enrégistrement des fiches technique des bus, fiches chauffeurs etc ...</p>
+                    <a href="#" class="btn btn-primary" style="text-decoration: none; width: 14rem;">LOGISTIQUE</a>
                   </div>
                 </div>
 
@@ -3543,34 +3542,35 @@ class Profile_Magic_Public {
         </div>
         
         <hr>
-        <h4> Gestion de réservations</h4>
+        <h4> Gestion de réservations <a href="#" style="text-decoration: none; color: #00c853">(Publié en ligne)</a></h4>
         <hr>
 
+       
         <div>
             <center>
 
                 <div class="card" style="width: 18rem; display: inline-block;">
                   <div class="card-body">
-                    <h5 class="card-title">VOYAGE DÉPART</h5>
-                    <p class="card-text" style="text-align: justify;">Enrégister un nouveau passager, créer un ticket de voyage personnalisé.</p>
-                    <a href="#" class="btn btn-primary" style="text-decoration: none;">NOUVEAU VOYAGE</a>
+                    <h5 class="card-title">PROGRAMMER UN VOYAGE</h5>
+                    <p class="card-text">Enrégister un nouveau passager, créer un ticket de voyage personnalisé.</p>
+                    <a href="#" class="btn btn-success" style="text-decoration: none; width: 14rem; ">RÉSERVATIONS</a>
                   </div>
                 </div>
 
 
                 <div class="card" style="width: 18rem; display: inline-block; margin: 60px;">
                   <div class="card-body">
-                    <h5 class="card-title">VOYAGE DÉPART</h5>
-                    <p class="card-text" style="text-align: justify;">Enrégister un nouveau passager, créer un ticket de voyage personnalisé.</p>
-                    <a href="#" class="btn btn-primary" style="text-decoration: none;">NOUVEAU VOYAGE</a>
+                    <h5 class="card-title">RÉSERVATIONS</h5>
+                    <p class="card-text">Consulter la liste des passager(e)s, imprimer les fiches de voyages etc ...</p>
+                    <a href="#" class="btn btn-success" style="text-decoration: none; width: 14rem; ">LISTE PASSAGER (E)S</a>
                   </div>
                 </div>
 
                  <div class="card" style="width: 18rem; display: inline-block; ">
                   <div class="card-body">
-                    <h5 class="card-title">VOYAGE DÉPART</h5>
-                    <p class="card-text" style="text-align: justify;">Enrégister un nouveau passager, créer un ticket de voyage personnalisé.</p>
-                    <a href="#" class="btn btn-primary" style="text-decoration: none;">NOUVEAU VOYAGE</a>
+                    <h5 class="card-title">CONFIGURATIONS</h5>
+                    <p class="card-text">Enrégistrement des fiches technique des bus, fiches chauffeurs etc ...</p>
+                    <a href="#" class="btn btn-success" style="text-decoration: none; width: 14rem;">ACCEDER</a>
                   </div>
                 </div>
 
