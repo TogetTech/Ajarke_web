@@ -326,7 +326,7 @@ else
 <div id="pm-edit-group-popup" style="display: none;">
     <div class="pm-popup-container" id="pg_edit_group_html_container">
      
-        
+      
     </div>
 </div>
     <?php if($dbhandler->get_global_option_value('pm_enable_blog','1')==1):?>

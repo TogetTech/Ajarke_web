@@ -3457,17 +3457,23 @@ class Profile_Magic_Public {
 		$redirect_url = $pmrequests->profile_magic_get_frontend_url('pm_user_profile_page',site_url('/wp-login.php'));
 		$redirect_url = add_query_arg( 'user_id',$filter_uid,$redirect_url );
 	?>
-      <div class="pm-dbfl">    
+      <div class="pm-dbfl">   
+
+    <!--
       <div class="pm-edit-user pm-difl pm-pad10"> <a href="<?php echo esc_url( $redirect_url ); ?>" class="pm-dbfl">
           <i class="fa fa-pencil" aria-hidden="true"></i>
           <?php _e('Edit Profile','profilegrid-user-profiles-groups-and-communities');?></a> </div>
       </div>
+
+    -->
+
       <?php endif; ?>
         <?php if(!empty($sections) && count($sections)>1):?>
                 <svg onclick="show_pg_section_left_panel()" class="pg-left-panel-icon" fill="#000000" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-    <path d="M15.41 16.09l-4.58-4.59 4.58-4.59L14 5.5l-6 6 6 6z"/>
-    <path d="M0-.5h24v24H0z" fill="none"/>
-</svg>
+                    <path d="M15.41 16.09l-4.58-4.59 4.58-4.59L14 5.5l-6 6 6 6z"/>
+                    <path d="M0-.5h24v24H0z" fill="none"/>
+                </svg>
+
       <div class="pm-section-left-panel pm-section-nav-vertical pm-difl pm-border pm-radius5 pm-bg">
           
         <ul class="dbfl">
@@ -3494,6 +3500,86 @@ class Profile_Magic_Public {
 		$fields = $pmrequests->pm_get_frontend_user_meta($uid,$gid,$group_leader,'',$section->id,'"user_avatar","user_pass","user_name","heading","paragraph","confirm_pass"');
 		$pmhtmlcreator->get_user_meta_fields_html($fields,$uid);
 		?>
+
+
+        <!-------------------------------------------------------------->
+
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+        <h4> Agence locale</h4>
+        <hr>
+        
+        <div>
+            <center>
+
+                <div class="card" style="width: 18rem; display: inline-block;">
+                  <div class="card-body">
+                    <h5 class="card-title">VOYAGE DÉPART</h5>
+                    <p class="card-text" style="text-align: justify;">Enrégister un nouveau passager, créer un ticket de voyage personnalisé.</p>
+                    <a href="#" class="btn btn-primary" style="text-decoration: none;">NOUVEAU VOYAGE</a>
+                  </div>
+                </div>
+
+
+                <div class="card" style="width: 18rem; display: inline-block; margin: 60px;">
+                  <div class="card-body">
+                    <h5 class="card-title">VOYAGE DÉPART</h5>
+                    <p class="card-text" style="text-align: justify;">Enrégister un nouveau passager, créer un ticket de voyage personnalisé.</p>
+                    <a href="#" class="btn btn-primary" style="text-decoration: none;">NOUVEAU VOYAGE</a>
+                  </div>
+                </div>
+
+                 <div class="card" style="width: 18rem; display: inline-block; ">
+                  <div class="card-body">
+                    <h5 class="card-title">VOYAGE DÉPART</h5>
+                    <p class="card-text" style="text-align: justify;">Enrégister un nouveau passager, créer un ticket de voyage personnalisé.</p>
+                    <a href="#" class="btn btn-primary" style="text-decoration: none;">NOUVEAU VOYAGE</a>
+                  </div>
+                </div>
+
+            </center>
+        </div>
+        
+        <hr>
+        <h4> Gestion de réservations</h4>
+        <hr>
+
+        <div>
+            <center>
+
+                <div class="card" style="width: 18rem; display: inline-block;">
+                  <div class="card-body">
+                    <h5 class="card-title">VOYAGE DÉPART</h5>
+                    <p class="card-text" style="text-align: justify;">Enrégister un nouveau passager, créer un ticket de voyage personnalisé.</p>
+                    <a href="#" class="btn btn-primary" style="text-decoration: none;">NOUVEAU VOYAGE</a>
+                  </div>
+                </div>
+
+
+                <div class="card" style="width: 18rem; display: inline-block; margin: 60px;">
+                  <div class="card-body">
+                    <h5 class="card-title">VOYAGE DÉPART</h5>
+                    <p class="card-text" style="text-align: justify;">Enrégister un nouveau passager, créer un ticket de voyage personnalisé.</p>
+                    <a href="#" class="btn btn-primary" style="text-decoration: none;">NOUVEAU VOYAGE</a>
+                  </div>
+                </div>
+
+                 <div class="card" style="width: 18rem; display: inline-block; ">
+                  <div class="card-body">
+                    <h5 class="card-title">VOYAGE DÉPART</h5>
+                    <p class="card-text" style="text-align: justify;">Enrégister un nouveau passager, créer un ticket de voyage personnalisé.</p>
+                    <a href="#" class="btn btn-primary" style="text-decoration: none;">NOUVEAU VOYAGE</a>
+                  </div>
+                </div>
+
+            </center>
+        </div>
+
+        <!-------------------------------------------------------------->
+
+
       </div>
       <?php endforeach; 
       if(count($sections)>1){echo '</div>';}
@@ -3501,6 +3587,7 @@ class Profile_Magic_Public {
 	  do_action( 'profile_magic_after_profile_section_content',$uid,$primary_gid);
 	  ?>
     </div>
+
             
         </div>   
         <?php        
@@ -3540,6 +3627,7 @@ class Profile_Magic_Public {
             <?php
             $pmhtmlcreator->pm_get_user_blog_posts($uid);
             ?>
+
             </div>
         </div>
         <?php 

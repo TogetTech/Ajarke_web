@@ -25,4 +25,5 @@ if(isset($myfriends) && !empty($myfriends))
     <?php if(isset($myfriends) && !empty($myfriends) && $num_of_friends_pages>1):
     echo $pagination;
     endif;?>
+
 </div>

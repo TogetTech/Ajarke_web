@@ -39,6 +39,7 @@ if($uid==$current_user->ID):
         <li class="pm-dbfl pm-border-bt pm-pad10"><a class="pm-dbfl" href="#pg-myfriends"><?php _e('My Friends','profilegrid-user-profiles-groups-and-communities');?><span class="pm-difr notification-count"><?php echo $total_myfriends;?></span></a></li>
         <li class="pm-dbfl pm-border-bt pm-pad10"><a class="pm-dbfl" href="#pg-friend-requests"><?php _e('Friend Requests','profilegrid-user-profiles-groups-and-communities');?><span class="pm-difr notification-count"><?php echo $total_myfriends_requests;?></span></a></li>
         <li class="pm-dbfl pm-border-bt pm-pad10"><a class="pm-dbfl" href="#pg-requests-sent"><?php _e('Requests Sent','profilegrid-user-profiles-groups-and-communities');?><span class="pm-difr notification-count"><?php echo $total_send_requests;?></span></a></li>
+
     </ul>
 </div>
     <div class="pm-section-right-panel">
@@ -65,6 +66,7 @@ if($uid==$current_user->ID):
    <?php //include 'profile-magic-my-friends.php';
    $pmhtmlcreator->pm_get_my_friends_html($uid,$pagenum,$pm_f_search,$limit,1);
    ?>
+
 </div>
 <?php endif; ?>
 
