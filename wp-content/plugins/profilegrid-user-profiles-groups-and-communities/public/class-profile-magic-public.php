@@ -3517,7 +3517,7 @@ class Profile_Magic_Public {
                   <div class="card-body">
                     <h5 class="card-title">VOYAGE DÉPART</h5>
                     <p class="card-text">Enrégister un nouveau passager, créer un ticket de voyage personnalisé.</p>
-                    <a href="#" class="btn btn-primary" style="text-decoration: none; width: 14rem; ">NOUVEAU VOYAGE</a>
+                    <a href="http://127.0.0.1/Ajarke_web/?page_id=153" class="btn btn-primary" style="text-decoration: none; width: 14rem; ">NOUVEAU VOYAGE</a>
                   </div>
                 </div>
 
@@ -3551,8 +3551,8 @@ class Profile_Magic_Public {
 
                 <div class="card" style="width: 18rem; display: inline-block;">
                   <div class="card-body">
-                    <h5 class="card-title">PROGRAMMER UN VOYAGE</h5>
-                    <p class="card-text">Enrégister un nouveau passager, créer un ticket de voyage personnalisé.</p>
+                    <h5 class="card-title">PLANIFIER UN VOYAGE</h5>
+                    <p class="card-text">Enrégisté un nouveau passager, créer un ticket de voyage personnalisé.</p>
                     <a href="#" class="btn btn-success" style="text-decoration: none; width: 14rem; ">RÉSERVATIONS</a>
                   </div>
                 </div>
