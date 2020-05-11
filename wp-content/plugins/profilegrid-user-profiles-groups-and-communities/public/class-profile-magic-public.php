@@ -3526,7 +3526,7 @@ class Profile_Magic_Public {
                   <div class="card-body">
                     <h5 class="card-title">VOYAGES PROGRAMMÉS</h5>
                     <p class="card-text">Consulter la liste des passager(e)s, imprimer les fiches de voyages etc ...</p>
-                    <a href="#" class="btn btn-primary" style="text-decoration: none; width: 14rem; ">LISTE PASSAGER (E)S</a>
+                    <a href="http://127.0.0.1/Ajarke_web/?page_id=179" class="btn btn-primary" style="text-decoration: none; width: 14rem; ">LISTE PASSAGER (E)S</a>
                   </div>
                 </div>
 
@@ -3534,7 +3534,7 @@ class Profile_Magic_Public {
                   <div class="card-body">
                     <h5 class="card-title">GESTION TECHNIQUE</h5>
                     <p class="card-text">Enrégistrement des fiches technique des bus, fiches chauffeurs etc ...</p>
-                    <a href="#" class="btn btn-primary" style="text-decoration: none; width: 14rem;">LOGISTIQUE</a>
+                    <a href="http://127.0.0.1/Ajarke_web/?page_id=153" class="btn btn-primary" style="text-decoration: none; width: 14rem;">LOGISTIQUE</a>
                   </div>
                 </div>
 
